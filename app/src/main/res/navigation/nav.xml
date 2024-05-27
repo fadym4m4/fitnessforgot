@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/frLogin">
+
+    <fragment
+        android:id="@+id/frLogin"
+        android:name="com.example.fittnessforgot.FrLogin"
+        android:label="fragment_fr_login"
+        tools:layout="@layout/fragment_fr_login" >
+        <action
+            android:id="@+id/action_frLogin_to_frForgot"
+            app:destination="@id/frForgot" />
+    </fragment>
+    <fragment
+        android:id="@+id/frForgot"
+        android:name="com.example.fittnessforgot.FrForgot"
+        android:label="fragment_fr_forgot"
+        tools:layout="@layout/fragment_fr_forgot" />
+</navigation>

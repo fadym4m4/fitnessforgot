@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "225700193535",
+    "project_id": "fittn-e523a",
+    "storage_bucket": "fittn-e523a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225700193535:android:319c737b8cc934177818ca",
+        "android_client_info": {
+          "package_name": "com.example.fittnessforgot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4PvsXC2KJr9N8BqxXzKJxNjJG8P-cLK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225700193535:android:70fff158858951867818ca",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4PvsXC2KJr9N8BqxXzKJxNjJG8P-cLK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
